@@ -12,6 +12,11 @@
   @apply mx-auto max-w-6xl px-10 text-center;
 }
 
+.section-content {
+  @apply max-w-3xl mx-auto text-xl leading-9 text-center text-grayishBlue;
+
+}
+
 .button-container {
   @apply flex w-full flex-col justify-center space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
 }
@@ -19,8 +24,13 @@
 .feature {
   @apply mb-2 text-2xl font-bold text-darkGrayishBlue md:text-3xl;
 }
+
 .feature-txt {
   @apply max-w-md text-grayishBlue;
+}
+
+.item {
+  @apply flex flex-col items-center space-y-5;
 }
 
 body {
